@@ -24,9 +24,10 @@ body {
     font-family: Outfit;
     color: hsl(218, 44%, 22%);
     margin-top: 15px;
+    font-weight: 700;
 }
 .content1 p {
-    font-size: 15px;
+    font-size: 14px;
     font-family: Outfit;
     color: hsl(220, 15%, 55%);
 }
