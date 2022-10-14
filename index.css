@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: hsl(212, 45%, 89%);
     height: 100vh;
@@ -30,4 +34,10 @@ body {
     font-size: 14px;
     font-family: Outfit;
     color: hsl(220, 15%, 55%);
+}
+
+@media only screen and (max-width: 375px){
+    .container {
+        margin: 10px; 
+    }
 }
