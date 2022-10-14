@@ -1,0 +1,32 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    align-self: center;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    /* margin: auto; */
+    padding: 15px;
+    border-radius: 20px;
+    width: fit-content;
+}
+.container img {
+    height: 250px;
+    border-radius: 10px;
+}
+.content1 h1 {
+    font-size: 20px;
+    font-family: Outfit;
+    color: hsl(218, 44%, 22%);
+    margin-top: 15px;
+}
+.content1 p {
+    font-size: 15px;
+    font-family: Outfit;
+    color: hsl(220, 15%, 55%);
+}
